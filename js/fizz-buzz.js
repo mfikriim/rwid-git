@@ -6,11 +6,12 @@
  * Odd sequence, "fizz"
  * Even sequence, "buzz"
  *
- * @param {number}sequence
+ * @param {number} n for sequence
+ * @returns
  */
-
 function fizzBuzz(n) {
   let arrayFizzBuzz = [];
+
   for (let index = 1; index <= n; index++) {
     if (index % 4 == 0 || index % 7 == 0) {
       arrayFizzBuzz.push("Fizz Buzz");

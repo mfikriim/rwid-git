@@ -3,13 +3,13 @@
  */
 
 function countFactorial(n) {
-    let result = 1;
+  let result = 1;
 
-    for (let index = n; index >= 1; index--) {
-       result = result * index;
-    }
+  for (let index = n; index >= 1; index--) {
+    result = result * index;
+  }
 
-    return result;
+  return result;
 }
 
 const factorial = countFactorial(5);
